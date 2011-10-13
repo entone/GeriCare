@@ -1,0 +1,14 @@
+%if locations.count():
+    %for loc in locations:
+        <tr>
+            <td>${loc.nursing_home_name}</td>
+            <td>${"%s<br/>%s, %s %s" % (loc.street, loc.city, loc.state, loc.zip_code)  }</td>
+            <td>${loc.phone_number}</td>
+            <td>${DateFormatter(loc.health_survey_date)}</td>
+        </tr>
+    % endfor
+%else:
+    <tr>
+        <td colspan="4">No Locations Found</td>
+    </tr>
+% endif
