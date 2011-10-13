@@ -1,0 +1,8 @@
+*.pyc
+*.log
+*.lock
+.AppleDouble
+.DS_Store
+DEV
+LOCAL
+

@@ -1,0 +1,4 @@
+CONNECTION = None
+AUTO_INCREMENT_DB = None
+LOGGER = None
+LOG = None
