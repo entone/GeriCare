@@ -1,9 +1,25 @@
 <%inherit file="./base.html"/>
 
 <%def name="title()">
-    Home ${self.attr.TITLE}
+    Chicago Nursing Homes  ${self.attr.TITLE}
 </%def>
 
 <%def name="main()">
-    Yo Gabba Gabba!
+    <h1>Chicago Nursing Homes</h1>
+    <div class="table_pager">
+        <a class="page_left"><<</a>
+        <a class="page_right">>></a>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Phone Number</th>
+                <th>Health Survey Date</th>
+            </tr>
+        </thead>
+        <tbody id="locations">
+        </tbody>
+    </table>            
 </%def>

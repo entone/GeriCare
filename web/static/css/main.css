@@ -1,4 +1,45 @@
 body{
     font-family: sans-serif
     color: #333333;
+    padding: 3px;
+}
+
+h1{
+    margin-bottom: 4px;
+}
+
+#body{
+    margin:auto;
+    margin-top: 20px;
+    width:1080px
+}
+
+.table_pager{
+    width: 100%;
+    background-color: #eeeeee;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+.page_right{
+    float:right;
+}
+
+table{
+    width: 100%;
+    font-family: sans-serif;
+    background-color: #ffffff;
+}
+
+tr{
+    margin-bottom: 4px;
+}
+
+td{
+    background-color: #dddddd;
+    padding: 6px;
+}
+
+th{
+    text-align:left;
 }

@@ -25,7 +25,7 @@ ZONES = {
 
 TIMEZONE = Central
 
-def format_date(date, format="%a %b %d, %I:%M%p"):
+def format_date(date, format="%a %b %d %Y, %I:%M%p"):
     if date: return DateFormatter(date, format, timezone=TIMEZONE) 
     return 'NA'
 
