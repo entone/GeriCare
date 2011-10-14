@@ -1,0 +1,52 @@
+<%inherit file="./base.html"/>
+
+<%def name="main()">
+    <div id="cover"></div>
+    <div id="modal">
+        <div class="background noise"></div>
+        <div class="holder" style="height:90%;">
+            <div class="modal_header"><span class="modal_title"></span><span class='close' onclick="modal_obj.close(); return false;"></span></div>
+            <div class='modal_content form'></div>
+        </div>
+    </div>
+    <div id="nav">
+        ${self.nav()}
+    </div>
+    <div id="content" class="noise">
+        <div class="shadow"></div>
+        <div id="data">
+            ${self.search()}
+            <div id="table">
+                ${self.table()}
+            </div>
+        </div>
+        <div id="form_wrap">
+        </div>
+    </div>
+</%def>
+
+<%def name="table()"></%def>
+
+<%def name="nav()">
+    <a href="${absolute_url("locations/")}" id="home">Admin</a>
+    <hr />
+    <ul>
+        <li>
+            <h3>Locations</h3>
+            <a href="${absolute_url("locations/")}" class="${'selected' if controller== 'Isos' else ""}"><span class="icon check"></span>Location List</a>
+            <a href='' onclick='create_new("locations", "Create New Location"); return false;'><span class="icon plus"></span>Create Location</a>
+        </li>
+    </ul>
+    <a href="${absolute_url("logout/")}" class="button red">Logout</a>
+</%def>
+
+<%def name="search()">
+    <div id="search_wrap">
+        <span class="icon search"></span>
+        <input type="text" name="query" id="search" placeholder="${self.search_holder()}" />
+    </div>
+</%def>
+
+<%def name="search_holder()">
+Search by Name or Provider ID
+</%def>

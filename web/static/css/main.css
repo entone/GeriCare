@@ -21,8 +21,13 @@ h1{
     padding: 3px;
 }
 
+.pager_button{
+    cursor:pointer;
+}
+
 .page_right{
     float:right;
+    
 }
 
 table{

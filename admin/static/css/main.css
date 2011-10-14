@@ -1,0 +1,1968 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\000036}}
+body {
+  -webkit-text-size-adjust: none;
+  -webkit-tap-highlight-color: transparent;
+  text-rendering: optimizeLegibility; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\0000311}}
+  body a {
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\0000314}}
+    body a * {
+      pointer-events: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\0000317}}
+  body .hidden {
+    display: none !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\0000320}}
+  body .left {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_global\.sass}line{font-family:\0000322}}
+  body .right {
+    float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000317}}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000320}}
+body {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000322}}
+ol, ul {
+  list-style: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000324}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000326}}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000328}}
+q, blockquote {
+  quotes: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003101}}
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\0000330}}
+a img {
+  border: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/reset\/_utilities\.scss}line{font-family:\00003115}}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_typography\.sass}line{font-family:\0000322}}
+h1 {
+  font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 24px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_typography\.sass}line{font-family:\0000326}}
+h2 {
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_typography\.sass}line{font-family:\0000330}}
+h4 {
+  font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 42px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_typography\.sass}line{font-family:\0000335}}
+p {
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px; }
+
+@font-face {
+  /* This declaration targets Internet Explorer */
+  font-family: "Icons";
+  src: url('../fonts/icons-webfont.eot'); }
+
+@font-face {
+  /* This declaration targets everything else */
+  font-family: "Icons";
+  src: url(//:) format("no404"), url('../fonts/icons-webfont.woff') format("woff"), url('../fonts/icons-webfont.ttf') format("truetype"), url('../fonts/icons-webfont.svg#IconFontRegular') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000313}}
+.icon:before {
+  font-family: "Icons", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 19px;
+  line-height: 10px;
+  font-weight: normal !important;
+  font-style: normal !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000316}}
+.icon.back_arrow:before {
+  content: "<"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000318}}
+.icon.plus:before {
+  content: "+"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000320}}
+.icon.check:before {
+  content: "v"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000322}}
+.icon.info:before {
+  content: "i"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000324}}
+.icon.error:before {
+  content: "!"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000326}}
+.icon.down:before {
+  content: "6"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000328}}
+.icon.settings:before {
+  content: "G"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000330}}
+.icon.arrow:before {
+  content: "a"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000332}}
+.icon.calendar:before {
+  content: "W"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000334}}
+.icon.list:before {
+  content: "Q"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000336}}
+.icon.search:before {
+  content: "s"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_icons\.sass}line{font-family:\0000338}}
+.icon.menu:before {
+  content: "G"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_close_x\.sass}line{font-family:\000031}}
+.close_x {
+  cursor: pointer;
+  color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_close_x\.sass}line{font-family:\000036}}
+  .close_x.white {
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_close_x\.sass}line{font-family:\000039}}
+  .close_x:before {
+    font-family: "Icons", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 19px;
+    line-height: 10px;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 23.75px;
+    content: "c";
+    vertical-align: -1px;
+    opacity: 0.5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_close_x\.sass}line{font-family:\0000319}}
+  .mouse .close_x:hover:before {
+    opacity: 0.8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_close_x\.sass}line{font-family:\0000323}}
+  .close_x.active:before, .mouse .close_x:active:before {
+    opacity: 0.3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\000031}}
+#notices {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 9998;
+  pointer-events: none;
+  -moz-transform: translate(0, 100%);
+  -webkit-transform: translate(0, 100%);
+  -o-transform: translate(0, 100%);
+  -ms-transform: translate(0, 100%);
+  transform: translate(0, 100%);
+  -webkit-transform: translate3d(0, 100%, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000314}}
+  #notices .notice_wrap {
+    position: absolute;
+    left: -2px;
+    right: -2px;
+    -moz-transition-property: all;
+    -webkit-transition-property: all;
+    -o-transition-property: all;
+    transition-property: all;
+    -moz-transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s;
+    -o-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -moz-transition-timing-function: ease-in-out;
+    -webkit-transition-timing-function: ease-in-out;
+    -o-transition-timing-function: ease-in-out;
+    transition-timing-function: ease-in-out;
+    -moz-transform: translate(0, 0);
+    -webkit-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    transform: translate(0, 0);
+    -webkit-transform: translate3d(0, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000324}}
+    #notices .notice_wrap .notice {
+      pointer-events: all;
+      min-height: 36px;
+      background-color: #ededed;
+      border: 1px solid rgba(0, 0, 0, 0.5);
+      border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000334}}
+      #notices .notice_wrap .notice.positive {
+        background: #416c0d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000337}}
+        #notices .notice_wrap .notice.positive:before {
+          border: 1px solid #568f10; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000340}}
+      #notices .notice_wrap .notice.error {
+        background: #570000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000343}}
+        #notices .notice_wrap .notice.error .icon {
+          color: yellow; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000346}}
+        #notices .notice_wrap .notice.error:before {
+          border: 1px solid #830000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000352}}
+      #notices .notice_wrap .notice:before {
+        content: " ";
+        position: absolute;
+        top: 1px;
+        right: 1px;
+        left: 1px;
+        bottom: 0;
+        border: 1px solid white;
+        border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000364}}
+      #notices .notice_wrap .notice .icon {
+        display: inline;
+        float: left;
+        margin-top: 11px;
+        margin-left: 11px;
+        height: 16px;
+        width: 16px;
+        color: #252525; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000375}}
+      #notices .notice_wrap .notice .close_x {
+        position: absolute;
+        top: 11px;
+        right: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_notices\.sass}line{font-family:\0000380}}
+      #notices .notice_wrap .notice .notice_text {
+        font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 1.2em;
+        line-height: 1.6em;
+        padding-top: 6px;
+        padding-bottom: 10px;
+        padding-right: 40px;
+        padding-left: 40px;
+        color: #252525; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_noise\.sass}line{font-family:\000033}}
+.noise {
+  background-image: url('data:image/png;base64,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');
+  background-repeat: repeat; }
+
+@media(-webkit-min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_noise\.sass}line{font-family:\0000314}}
+  .noise {
+    -moz-background-size: 25px 25px;
+    -webkit-background-size: 25px 25px;
+    -o-background-size: 25px 25px;
+    background-size: 25px 25px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_chooser\.sass}line{font-family:\000034}}
+.chooser {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -moz-inline-box;
+  -moz-box-orient: vertical;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid #707070;
+  -moz-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+  -o-box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+  box-shadow: rgba(255, 255, 255, 0.3) 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+  height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/css3\/_inline-block\.scss}line{font-family:\000037}}
+  .chooser {
+    *display: inline; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_chooser\.sass}line{font-family:\0000315}}
+  .chooser a {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    float: left;
+    padding: 2px 9px;
+    height: 24px;
+    color: #727272;
+    text-shadow: rgba(255, 255, 255, 0.5) 0 1px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_chooser\.sass}line{font-family:\0000325}}
+    .mouse .chooser a:hover {
+      color: #4b4b4b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_chooser\.sass}line{font-family:\0000328}}
+    .chooser a.selected {
+      color: #4b4b4b;
+      cursor: default;
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -o-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -khtml-border-radius: 3px;
+      border-radius: 3px;
+      border: 1px solid #6c6c6c;
+      margin: -1px;
+      background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #dedede), color-stop(100%, #c1c1c1));
+      background: -webkit-linear-gradient(top, #dedede, #c1c1c1);
+      background: -moz-linear-gradient(top, #dedede, #c1c1c1);
+      background: -o-linear-gradient(top, #dedede, #c1c1c1);
+      background: linear-gradient(top, #dedede, #c1c1c1);
+      -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+      -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+      -o-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5);
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5); }
+
+@media(orientation:portrait) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/device\/_narrow\.sass}line{font-family:\000033}}
+  body.narrow.ios {
+    height: 416px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/device\/_narrow\.sass}line{font-family:\000036}}
+    body.narrow.ios.installed {
+      height: 460px; } }
+
+@media(orientation:landscape) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/device\/_narrow\.sass}line{font-family:\0000311}}
+  body.narrow.ios {
+    height: 268px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/device\/_narrow\.sass}line{font-family:\0000314}}
+#fake_narrow_frame {
+  position: relative;
+  width: 320px;
+  height: 480px;
+  margin: 100px auto;
+  -moz-box-shadow: 0 1px 3px black;
+  -webkit-box-shadow: 0 1px 3px black;
+  -o-box-shadow: 0 1px 3px black;
+  box-shadow: 0 1px 3px black; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_base\.sass}line{font-family:\000031}}
+.scroll {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_base\.sass}line{font-family:\000038}}
+#scroll_thumb, body.mouse .scrollbar .thumb {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  position: relative;
+  background: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_base\.sass}line{font-family:\0000316}}
+  #scroll_thumb:before, body.mouse .scrollbar .thumb:before {
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -o-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -khtml-border-radius: 6px;
+    border-radius: 6px;
+    content: " ";
+    position: absolute;
+    top: -1px;
+    right: -1px;
+    left: -1px;
+    bottom: -1px;
+    border: 1px solid rgba(255, 255, 255, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_base\.sass}line{font-family:\0000330}}
+  #scroll_thumb:hover, body.mouse .scrollbar .thumb:hover {
+    background-color: rgba(0, 0, 0, 0.5); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_base\.sass}line{font-family:\0000332}}
+  #scroll_thumb:active, body.mouse .scrollbar .thumb:active {
+    background-color: rgba(0, 0, 0, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_touch\.sass}line{font-family:\000031}}
+.scroll_content {
+  min-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_touch\.sass}line{font-family:\000034}}
+.scroll-indicator {
+  background: rgba(0, 0, 0, 0.4);
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  position: absolute;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+  opacity: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_touch\.sass}line{font-family:\0000311}}
+  .scroll-indicator.show {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_touch\.sass}line{font-family:\0000314}}
+  .scroll-indicator.y-axis-scroll-indicator {
+    width: 5px;
+    min-height: 10px;
+    top: 0px;
+    right: 5px;
+    margin: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_touch\.sass}line{font-family:\0000321}}
+  .scroll-indicator.x-axis-scroll-indicator {
+    bottom: 5px;
+    margin: 0 5px;
+    height: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000310}}
+body.mouse .scroll_content {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000318}}
+body.mouse .scrollbar {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000324}}
+  body.mouse .scrollbar .thumb {
+    position: absolute;
+    display: block;
+    cursor: pointer;
+    width: 5px;
+    height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000333}}
+  body.mouse .scrollbar .track {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding: 0 2px;
+    cursor: pointer;
+    height: 100%;
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000343}}
+  body.mouse .scrollbar.horizontal {
+    width: 100%;
+    height: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000347}}
+    body.mouse .scrollbar.horizontal .thumb {
+      width: auto;
+      height: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/scroll\/_mouse\.sass}line{font-family:\0000351}}
+    body.mouse .scrollbar.horizontal .track {
+      padding: 2px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\000032}}
+button::-moz-focus-inner {
+  border: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\000035}}
+input[type="search"]::-webkit-search-decoration {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\000038}}
+input,
+button,
+select,
+textarea {
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding;
+  -o-background-clip: padding-box;
+  -ms-background-clip: padding-box;
+  -khtml-background-clip: padding-box;
+  background-clip: padding-box;
+  margin: 0;
+  vertical-align: middle; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000316}}
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"],
+.submit a {
+  -webkit-appearance: none;
+  border: none;
+  cursor: pointer;
+  outline: 0;
+  overflow: visible;
+  width: auto;
+  /* IE7 */
+  *padding-top: 2px;
+  *padding-bottom: 0px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000340}}
+button {
+  /* IE7 */
+  *padding-top: 1px;
+  *padding-bottom: 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000346}}
+button[disabled],
+input[type="reset"][disabled],
+input[type="submit"][disabled],
+input[type="button"][disabled] {
+  color: #888888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000353}}
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -webkit-appearance: none;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  background-color: white;
+  border: 1px solid;
+  border-color: #848484 #c1c1c1 #e1e1e1;
+  color: black;
+  outline: 0;
+  padding: 2px 3px;
+  font-size: 13px;
+  height: 1.8em;
+  /* IE7 */
+  *padding-top: 2px;
+  *padding-bottom: 1px;
+  *height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000385}}
+  textarea:focus,
+  select:focus,
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="email"]:focus,
+  input[type="month"]:focus,
+  input[type="number"]:focus,
+  input[type="password"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="text"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  input[type="week"]:focus {
+    border-color: #4486d7;
+    -moz-box-shadow: #4486d7 0 0 4px 1px;
+    -webkit-box-shadow: #4486d7 0 0 4px 1px;
+    -o-box-shadow: #4486d7 0 0 4px 1px;
+    box-shadow: #4486d7 0 0 4px 1px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000393}}
+input.placeholder_text,
+textarea.placeholder_text {
+  color: #888888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\0000398}}
+::-webkit-input-placeholder {
+  color: #888888; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003102}}
+textarea[disabled],
+select[disabled],
+input[type="date"][disabled],
+input[type="datetime"][disabled],
+input[type="datetime-local"][disabled],
+input[type="email"][disabled],
+input[type="month"][disabled],
+input[type="number"][disabled],
+input[type="password"][disabled],
+input[type="search"][disabled],
+input[type="tel"][disabled],
+input[type="text"][disabled],
+input[type="time"][disabled],
+input[type="url"][disabled],
+input[type="week"][disabled] {
+  background-color: #f8f8f8;
+  color: #515151; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003121}}
+input[type="number"]:-webkit-inner-spin-button, input[type="number"]:-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003125}}
+select {
+  cursor: pointer;
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAGCAYAAAAhS6XkAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDowMTgwMTE3NDA3MjA2ODExODQwOEU0MTA0MjRGNzQ1NCIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDowMzhEMzEyNTg1NUMxMUUwQTA2MkI4MzI1MzBGNkYxOCIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDowMzhEMzEyNDg1NUMxMUUwQTA2MkI4MzI1MzBGNkYxOCIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOjAyODAxMTc0MDcyMDY4MTE4NDA4RTQxMDQyNEY3NDU0IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjAxODAxMTc0MDcyMDY4MTE4NDA4RTQxMDQyNEY3NDU0Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+kztUhgAAAFBJREFUeNpibGlpSWBgYJjPQBz4BcShQLypuroaQ5IJiBcAcSIpBuFSwASlYQb+JdcgZMNgBqZgMZAog9ANw2Yg0QZhMwzZy99JMQgEAAIMAFCJGA37KFV1AAAAAElFTkSuQmCC');
+  background-position: right 7px;
+  background-repeat: no-repeat; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003133}}
+textarea,
+select[multiple] {
+  height: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003138}}
+select[multiple],
+.is_webkit select[multiple] {
+  background-image: none;
+  padding: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003144}}
+textarea {
+  min-height: 40px;
+  overflow: auto;
+  resize: vertical;
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_formalize\.sass}line{font-family:\00003151}}
+optgroup {
+  color: black;
+  font-style: normal;
+  font-weight: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\000034}}
+form {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\000039}}
+  form .form_wrap {
+    padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000312}}
+  form .form_item {
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000315}}
+  form .form_element {
+    position: relative;
+    overflow: hidden;
+    margin: 0 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000320}}
+    form .form_element .close_x {
+      -moz-transition-property: all;
+      -webkit-transition-property: all;
+      -o-transition-property: all;
+      transition-property: all;
+      -moz-transition-duration: 0.15s;
+      -webkit-transition-duration: 0.15s;
+      -o-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -moz-transition-timing-function: ease-in-out;
+      -webkit-transition-timing-function: ease-in-out;
+      -o-transition-timing-function: ease-in-out;
+      transition-timing-function: ease-in-out;
+      position: absolute;
+      top: 16px;
+      right: 0px;
+      padding-right: 4px;
+      -moz-transform: translate(100%, 0);
+      -webkit-transform: translate(100%, 0);
+      -o-transform: translate(100%, 0);
+      -ms-transform: translate(100%, 0);
+      transform: translate(100%, 0);
+      -webkit-transform: translate3d(100%, 0, 0); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000331}}
+      form .form_element .close_x.show {
+        -moz-transform: translate(0, 0);
+        -webkit-transform: translate(0, 0);
+        -o-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate(0, 0);
+        -webkit-transform: translate3d(0, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000335}}
+label {
+  display: block;
+  font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  margin: 0 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000342}}
+input,
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="number"],
+select {
+  margin: 5px 0;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000351}}
+  .show_error input, .show_error
+  input[type="text"], .show_error
+  input[type="password"], .show_error
+  input[type="email"], .show_error
+  input[type="number"], .show_error
+  select {
+    background-color: #fffac7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000353}}
+  input.clearable,
+  input[type="text"].clearable,
+  input[type="password"].clearable,
+  input[type="email"].clearable,
+  input[type="number"].clearable,
+  select.clearable {
+    padding-right: 28px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000356}}
+input[type="submit"] {
+  margin: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000359}}
+.select_arrow {
+  position: absolute;
+  right: 10px;
+  top: 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_base\.sass}line{font-family:\0000364}}
+  .select_arrow:before {
+    font-family: "Icons", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 19px;
+    line-height: 10px;
+    font-weight: normal !important;
+    font-style: normal !important;
+    font-size: 29px;
+    content: "6";
+    color: #7a7a7a; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_errors\.sass}line{font-family:\000031}}
+.error_mark .string {
+  font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  color: #dd4646;
+  margin-bottom: 10px;
+  margin-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_errors\.sass}line{font-family:\0000311}}
+  .error_mark .string .icon {
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/forms\/_errors\.sass}line{font-family:\0000314}}
+  .error_mark .string a {
+    color: #dd4646;
+    text-decoration: underline; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000314}}
+.list_item {
+  display: inline-block;
+  display: block;
+  -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 17px;
+  color: #252525;
+  line-height: 40px;
+  padding-left: 5px;
+  padding-right: 5px;
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+  .list_item:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_hacks\.scss}line{font-family:\0000335}}
+  .list_item {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000320}}
+  .list_item .checkbox {
+    margin-left: -5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000323}}
+  .list_item span.drag {
+    display: inline;
+    float: left;
+    display: block;
+    height: 20px;
+    width: 20px;
+    background: blue;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000333}}
+  .list_item span.count {
+    display: inline;
+    float: right;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -o-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+    height: 20px;
+    margin-top: 10px;
+    margin-right: 2px;
+    background-color: #7a7a7a;
+    padding: 0 10px;
+    font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000342}}
+    footer .list_item span.count {
+      margin-top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000356}}
+  .list_item.selected {
+    background-color: #fffac7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000359}}
+.list_item a.main_link {
+  display: block;
+  margin-left: -5px;
+  margin-right: -5px;
+  padding: 0 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000366}}
+a.list_item, .list_item a.main_link {
+  border-bottom: 1px solid #9c9e9f; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000371}}
+  footer a.list_item, footer .list_item a.main_link {
+    border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000374}}
+  .mouse a.list_item:hover, .touch a.list_item.active, .mouse .list_item a.main_link:hover, .touch .list_item a.main_link.active {
+    background-color: #ededed; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000378}}
+  .mouse footer a.list_item:hover, .touch footer a.list_item.active, .mouse footer .list_item a.main_link:hover, .touch footer .list_item a.main_link.active {
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000381}}
+  a.list_item.active, .mouse a.list_item:active, .list_item a.main_link.active, .mouse .list_item a.main_link:active {
+    background-color: #4486d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000383}}
+  a.list_item.arrow, .list_item a.main_link.arrow {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAASCAYAAACw50UTAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAUVJREFUeNpi+v//PwMM6wMBMp9SzMQABQYGBtFAqi4xMTGbgUqACcngIA0NjV+ysrIWbW1tVVQxHGgwC5DWBBmspqb2ByT448cPTWpYwPzixYt/586dO6miomL7798/dpjEnz9/RI8fP65pa2t7mKJgmTVr1lcODo5KVlbWz8iSlPoAHqGlpaUfqW0BEzKH2hYwoQuALHj9+nXdhw8fGNAtWLNmTTIphrOgCwBTDweQKmBjY+N0c3P7zsQEsd/MzOyzj4+PMpCpDsQ3SXY51OAaZmZmDVNT059oBoO8cohYg1EMRzbYwsLip7Cw8D8sBu8gOVhwGWxubv7Z29ubLIPBhkNzKD6DDwLxTrKS4oULF/4Ak95NahsMD/PTp08vlpaWvkpNg8EAufzduHFjIpBuA2J3apTnjCACDagC8W1qFLkAAQYA+JAWFPvy8XcAAAAASUVORK5CYII=');
+    background-repeat: no-repeat;
+    background-position: right center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000384}}
+    a.list_item.arrow span.count, .list_item a.main_link.arrow span.count {
+      margin-right: 22px; }
+
+@media(-webkit-min-device-pixel-ratio: 2) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/interface\/_list_item\.sass}line{font-family:\0000392}}
+  a.list_item.arrow {
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAkCAYAAAD2IghRAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAZxJREFUeNrU2D9rg0AUAHBzBIXS6lK6toiTi+KmY6fQoTi4OOUL+B2kX6J7P0CRQih0LJSO4uQnaKCUUlIyVUrsu2CCMXoqJfju4Il/nvDjCee7GxmGIfxnJEkiDDEI49m0CJRjzEBfl67vsMEJC63regYxwVj5MQutadpvcX+SpimqypMOaIGeY6v8Bn4GcVmHxorfwD8gbmBqXNahMeJJaT5ehGE4lyRpxXoBC34LN03zS1XVW9/333jA70yHgJ/3xcM708HhPOFrf/k84Bt7Fex4VpOFGk/aErDiSZckjHjSNZHioyh6yLKsNZfiPc87PyR81GMFdEHbAkVRjmzb/hFFMW9KtCxr6bruAk5fIB6HrPgaDXGc5zkzsYTu9UUPAd+iZVleOY7TWO0K+hViNhQcJboNjhbNgqNGN8HRo+vgXKCrcG7QZfgpT+gy/BPiuS8a2oBB0NXF8n0QBO88oHd2sgDyDfgngF/FcXyCGb23BUdBxbbxFo8RvQev4ukBI7oWXsE7GNFti+VZMd2hQ68XEm39NdbxJ8AABrkZhhjJ/XUAAAAASUVORK5CYII=');
+    -moz-background-size: 23px 18px;
+    -webkit-background-size: 23px 18px;
+    -o-background-size: 23px 18px;
+    background-size: 23px 18px; } }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_base\.sass}line{font-family:\000031}}
+body {
+  background: #e1e1e1;
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_frame\.sass}line{font-family:\000033}}
+#nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 218px;
+  overflow: auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_frame\.sass}line{font-family:\0000311}}
+#content {
+  position: absolute;
+  top: 3px;
+  bottom: 3px;
+  right: -5px;
+  left: 218px;
+  border: 1px solid #adb1b4;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #adb1b4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_frame\.sass}line{font-family:\0000323}}
+  #content .shadow {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 500;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px 0 inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 6px 0 inset;
+    pointer-events: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\000035}}
+#nav #home {
+  -moz-transition-property: all;
+  -webkit-transition-property: all;
+  -o-transition-property: all;
+  transition-property: all;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  -o-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  -moz-transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-in-out;
+  -o-transition-timing-function: ease-in-out;
+  transition-timing-function: ease-in-out;
+  -webkit-font-smoothing: antialiased;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: block;
+  height: 27px;
+  font-size: 20px;
+  line-height: 25px;
+  color: #515151;
+  text-shadow: white 0 1px 0;
+  padding: 8px 43px;
+  margin: 3px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-image: url('../images/logo.png?1307051786');
+  background-repeat: no-repeat;
+  background-position: 8px center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000327}}
+  #nav #home:hover {
+    background-color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000330}}
+#nav hr {
+  margin: 0;
+  border-top: 1px solid #adb1b4;
+  border-bottom: 1px solid white;
+  border-left: none;
+  border-right: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000337}}
+#nav ul li {
+  font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 5px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.21) 0 1px 1px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.21) 0 1px 1px;
+  -o-box-shadow: rgba(0, 0, 0, 0.21) 0 1px 1px;
+  box-shadow: rgba(0, 0, 0, 0.21) 0 1px 1px;
+  background-color: white;
+  color: #515151;
+  line-height: 37px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000348}}
+  #nav ul li h3 {
+    font-size: 16px;
+    padding-left: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000352}}
+  #nav ul li a {
+    color: #515151;
+    display: block;
+    font-size: 13px;
+    border-top: 1px solid #dddddd; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000359}}
+    #nav ul li a .icon {
+      margin-right: 8px;
+      margin-left: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000363}}
+      #nav ul li a .icon.check {
+        color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000366}}
+    #nav ul li a:hover {
+      background-color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000369}}
+      #nav ul li a:hover .icon.check {
+        color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000372}}
+    #nav ul li a:active, #nav ul li a.selected {
+      background-color: #4486d7;
+      color: white;
+      text-shadow: rgba(0, 0, 0, 0.5) 0 -1px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000376}}
+    #nav ul li a.selected .check {
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=100);
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_nav\.sass}line{font-family:\0000378}}
+    #nav ul li a:last-child {
+      -moz-border-radius-bottomleft: 3px;
+      -webkit-border-bottom-left-radius: 3px;
+      -o-border-bottom-left-radius: 3px;
+      -ms-border-bottom-left-radius: 3px;
+      -khtml-border-bottom-left-radius: 3px;
+      border-bottom-left-radius: 3px;
+      -moz-border-radius-bottomright: 3px;
+      -webkit-border-bottom-right-radius: 3px;
+      -o-border-bottom-right-radius: 3px;
+      -ms-border-bottom-right-radius: 3px;
+      -khtml-border-bottom-right-radius: 3px;
+      border-bottom-right-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\000033}}
+#data {
+  border-right: 1px solid #dddddd;
+  -moz-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  -o-box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  box-shadow: rgba(0, 0, 0, 0.2) 1px 1px 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 10;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  background-color: white;
+  width: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000318}}
+  #data #search_wrap {
+    position: relative;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -ms-border-top-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -ms-border-top-right-radius: 5px;
+    -khtml-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: #e9e9e9;
+    border-bottom: 1px solid #adb1b4;
+    height: 42px;
+    padding: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000329}}
+    #data #search_wrap .icon {
+      position: absolute;
+      top: 13px;
+      left: 13px;
+      color: #515151; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000335}}
+    #data #search_wrap input[type="text"] {
+      -moz-border-radius: 3px;
+      -webkit-border-radius: 3px;
+      -o-border-radius: 3px;
+      -ms-border-radius: 3px;
+      -khtml-border-radius: 3px;
+      border-radius: 3px;
+      margin: 0;
+      height: 30px;
+      border: 1px solid #adb1b4;
+      padding-left: 30px;
+      -moz-box-shadow: white 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+      -webkit-box-shadow: white 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+      -o-box-shadow: white 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset;
+      box-shadow: white 0 1px 0, rgba(0, 0, 0, 0.3) 0 1px 2px 0 inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000346}}
+      #data #search_wrap input[type="text"]:focus {
+        border-color: #4486d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000349}}
+  #data #search_wrap + #table {
+    top: 42px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000352}}
+  #data #table {
+    overflow: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000361}}
+    #data #table .dashboard_component:first-child .column_header {
+      -moz-border-radius-topleft: 5px;
+      -webkit-border-top-left-radius: 5px;
+      -o-border-top-left-radius: 5px;
+      -ms-border-top-left-radius: 5px;
+      -khtml-border-top-left-radius: 5px;
+      border-top-left-radius: 5px;
+      -moz-border-radius-topright: 5px;
+      -webkit-border-top-right-radius: 5px;
+      -o-border-top-right-radius: 5px;
+      -ms-border-top-right-radius: 5px;
+      -khtml-border-top-right-radius: 5px;
+      border-top-right-radius: 5px;
+      border-top: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_data\.sass}line{font-family:\0000365}}
+    #data #table .column_header {
+      -webkit-font-smoothing: antialiased;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 38px;
+      background-color: #eeeeee;
+      padding-left: 10px;
+      border-bottom: 1px solid #adb1b4; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\000032}}
+#form_wrap #form {
+  position: absolute;
+  right: 5px;
+  top: 0;
+  bottom: 0;
+  width: 50%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background: #f8f8f8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000314}}
+  #form_wrap #form form, #form_wrap #form .content {
+    padding: 10px;
+    padding-left: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000318}}
+    #form_wrap #form form .fieldset:first-child, #form_wrap #form .content .fieldset:first-child {
+      border: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000321}}
+      #form_wrap #form form .fieldset:first-child > .legend, #form_wrap #form .content .fieldset:first-child > .legend {
+        position: relative;
+        left: 0;
+        right: 0;
+        font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 24px;
+        text-align: center;
+        border: 2px solid #dddddd;
+        padding: 5px;
+        margin: 10px;
+        -moz-border-radius: 3px;
+        -webkit-border-radius: 3px;
+        -o-border-radius: 3px;
+        -ms-border-radius: 3px;
+        -khtml-border-radius: 3px;
+        border-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000335}}
+form li {
+  font-size: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 10px; }
+form.send_email label, #outgoing_email label {
+	clear: left;
+	display: inline-block;
+	float: left;
+	width: 50px;
+}
+#outgoing_email label {
+	height: 24px;
+	width: 100px;
+}
+.modal_content.form .value {
+	font-family: HelveticaNeue-Bold,"Helvetica Neue Bold","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 12px;
+	-moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -khtml-border-radius: 4px;
+    border-radius: 4px;
+	background: #fcfcfc;
+	padding: 5px;
+	box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+	-webkit-box-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);
+}
+form.send_email div.subject,
+#outgoing_email input[type="text"], #outgoing_email select {
+	margin-left: 61px;
+	margin-top: 0;
+}
+#outgoing_email input[type="text"], #outgoing_email select {
+	width: auto;
+	display: block;
+}
+form.send_email label.clear {
+	display: block;
+	float: none;
+	margin-bottom: 8px;
+}
+form.send_email fieldset {
+	clear: left;
+	margin-bottom: 8px;
+}
+form.send_email select {
+	width: 300px;
+	margin-top: 0;
+}
+form.send_email label
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000341}}
+  form li > span {
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000344}}
+form label {
+  color: #515151;
+  padding-top: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000348}}
+  form label.required:after {
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    content: "(required)";
+    color: #ef9636;
+    padding-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000354}}
+form .fieldset {
+  clear: left;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #adb1b4;
+  padding: 10px;
+  margin: 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000362}}
+  form .fieldset div.dynamic_email {
+    margin-top: 5px;
+    font-size: 10px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+    background-color: white;
+    font-family: sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000370}}
+  form .fieldset .validator, form .fieldset .form_error {
+    display: block;
+    padding: 7px;
+    border-bottom: 1px solid white;
+    -moz-border-radius-bottomleft: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -o-border-bottom-left-radius: 3px;
+    -ms-border-bottom-left-radius: 3px;
+    -khtml-border-bottom-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomright: 3px;
+    -webkit-border-bottom-right-radius: 3px;
+    -o-border-bottom-right-radius: 3px;
+    -ms-border-bottom-right-radius: 3px;
+    -khtml-border-bottom-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: rgba(68, 134, 215, 0.5);
+    font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    margin: -5px 5px 0;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px 0 inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px 0 inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px 0 inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 1px 2px 0 inset;
+    text-shadow: white 0 1px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000382}}
+    form .fieldset .validator.invalid, form .fieldset .form_error.invalid {
+      color: #dd4646;
+      background: rgba(221, 70, 70, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000385}}
+  form .fieldset .form_error {
+    color: #dd4646;
+    background: rgba(221, 70, 70, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\0000389}}
+  form .fieldset .fieldset {
+    position: relative;
+    border: 1px solid #b1b1b1;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: white 0 1px 0;
+    -webkit-box-shadow: white 0 1px 0;
+    -o-box-shadow: white 0 1px 0;
+    box-shadow: white 0 1px 0;
+    padding: 0 10px;
+    overflow: hidden;
+    height: 34px;
+    background-color: #f9f9f9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003101}}
+    form .fieldset .fieldset .legend {
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      -o-border-radius: 5px;
+      -ms-border-radius: 5px;
+      -khtml-border-radius: 5px;
+      border-radius: 5px;
+      border-top: 1px solid #b1b1b1;
+      display: block;
+      background-color: white;
+      color: #4486d7;
+      cursor: pointer;
+      padding: 10px;
+      font-size: 14px;
+      line-height: 14px;
+      margin: -10px;
+      margin-top: 0;
+      margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003120}}
+      form .fieldset .fieldset .legend:after {
+        font-family: "Icons", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 19px;
+        line-height: 10px;
+        font-weight: normal !important;
+        font-style: normal !important;
+        content: "<";
+        font-size: 30px;
+        position: absolute;
+        right: 7px;
+        top: 15px;
+        -moz-transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -o-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        transform: rotate(90deg);
+        width: 13px;
+        height: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003131}}
+      form .fieldset .fieldset .legend + label {
+        padding-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003134}}
+    form .fieldset .fieldset.open {
+      padding-bottom: 10px;
+      height: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003137}}
+      form .fieldset .fieldset.open .legend {
+        -moz-border-radius-bottomleft: 0;
+        -webkit-border-bottom-left-radius: 0;
+        -o-border-bottom-left-radius: 0;
+        -ms-border-bottom-left-radius: 0;
+        -khtml-border-bottom-left-radius: 0;
+        border-bottom-left-radius: 0;
+        -moz-border-radius-bottomright: 0;
+        -webkit-border-bottom-right-radius: 0;
+        -o-border-bottom-right-radius: 0;
+        -ms-border-bottom-right-radius: 0;
+        -khtml-border-bottom-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-bottom: 1px solid #adb1b4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003141}}
+        form .fieldset .fieldset.open .legend:after {
+          right: 18px;
+          top: 11px;
+          -moz-transform: rotate(-90deg);
+          -webkit-transform: rotate(-90deg);
+          -o-transform: rotate(-90deg);
+          -ms-transform: rotate(-90deg);
+          transform: rotate(-90deg); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003146}}
+    form .fieldset .fieldset .fieldset {
+      display: inline-block;
+      border: 0;
+      padding: 10px;
+      margin-left: -10px;
+      margin-right: -10px;
+      height: auto;
+      overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_clearfix\.scss}line{font-family:\0000322}}
+      form .fieldset .fieldset .fieldset:after {
+        content: "\0020";
+        display: block;
+        height: 0;
+        clear: both;
+        overflow: hidden;
+        visibility: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/\.gem\/ruby\/1\.8\/gems\/compass-0\.11\.1\/frameworks\/compass\/stylesheets\/compass\/utilities\/general\/_hacks\.scss}line{font-family:\0000335}}
+      form .fieldset .fieldset .fieldset {
+        display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003158}}
+      form .fieldset .fieldset .fieldset .legend {
+        font-size: 16px;
+        line-height: 24px;
+        width: auto;
+        display: inline;
+        -moz-border-radius: 0;
+        -webkit-border-radius: 0;
+        -o-border-radius: 0;
+        -ms-border-radius: 0;
+        -khtml-border-radius: 0;
+        border-radius: 0;
+        border-bottom: 1px solid #515151 !important;
+        padding: 0;
+        color: white;
+        cursor: default;
+        padding-left: 5px;
+        padding-bottom: 1px;
+        background-color: #adb1b4;
+        text-shadow: rgba(0, 0, 0, 0.6) 0 -1px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003173}}
+        form .fieldset .fieldset .fieldset .legend:after {
+          content: " "; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003176}}
+        form .fieldset .fieldset .fieldset .legend + label {
+          margin-top: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003179}}
+      form .fieldset .fieldset .fieldset .fieldset {
+        margin: 10px;
+        border: 1px solid #515151; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003183}}
+  form .fieldset .legend {
+    font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003187}}
+  form .fieldset .add_widget {
+    background-color: #dddddd;
+    -moz-border-radius-bottomleft: 5px;
+    -webkit-border-bottom-left-radius: 5px;
+    -o-border-bottom-left-radius: 5px;
+    -ms-border-bottom-left-radius: 5px;
+    -khtml-border-bottom-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -o-border-bottom-right-radius: 5px;
+    -ms-border-bottom-right-radius: 5px;
+    -khtml-border-bottom-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 1px inset;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 1px inset;
+    -o-box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 1px inset;
+    box-shadow: rgba(0, 0, 0, 0.4) 0 1px 3px 1px inset;
+    border-bottom: 1px solid white;
+    padding: 0 5px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003194}}
+    form .fieldset .add_widget h3 {
+      font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+      line-height: 15px;
+      font-size: 12px;
+      padding-top: 8px;
+      padding-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003201}}
+    form .fieldset .add_widget .button {
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003204}}
+  form .fieldset input.input_error {
+    background-color: #fffac7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003207}}
+  form .fieldset input[type="checkbox"] {
+    display: inline;
+    float: left;
+    clear: left;
+    width: 27px;
+    height: 27px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_form\.sass}line{font-family:\00003214}}
+    form .fieldset input[type="checkbox"] + label {
+      display: inline;
+      float: left;
+      line-height: 25px;
+      width: 80%;
+      padding-bottom: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_login\.sass}line{font-family:\000031}}
+.login .modal_content {
+  height: auto !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\000033}}
+.tabs {
+  position: absolute;
+  top: 0;
+  right: 5px;
+  z-index: 3;
+  width: 50%;
+  display: table;
+  height: 32px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 3px 0 inset;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 3px 0 inset;
+  -o-box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 3px 0 inset;
+  box-shadow: rgba(0, 0, 0, 0.5) 0 -1px 3px 0 inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\000034}}
+  .tabs + #form {
+    top: 32px !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\0000319}}
+  .tabs .tab_wrap {
+    display: table-cell; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\0000322}}
+    .tabs .tab_wrap:first-child {
+      padding-left: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\0000325}}
+    .tabs .tab_wrap a {
+      display: block;
+      font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      text-align: center;
+      color: #4486d7;
+      text-shadow: rgba(255, 255, 255, 0.7) 0 1px 0;
+      -moz-border-radius-topleft: 5px;
+      -webkit-border-top-left-radius: 5px;
+      -o-border-top-left-radius: 5px;
+      -ms-border-top-left-radius: 5px;
+      -khtml-border-top-left-radius: 5px;
+      border-top-left-radius: 5px;
+      -moz-border-radius-topright: 5px;
+      -webkit-border-top-right-radius: 5px;
+      -o-border-top-right-radius: 5px;
+      -ms-border-top-right-radius: 5px;
+      -khtml-border-top-right-radius: 5px;
+      border-top-right-radius: 5px;
+      background-color: rgba(255, 255, 255, 0.3);
+      margin: 2px;
+      margin-bottom: 0;
+      line-height: 29px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_tabs\.sass}line{font-family:\0000341}}
+      .tabs .tab_wrap a.selected {
+        color: black;
+        cursor: default;
+        border: 1px solid #515151;
+        border-bottom: none;
+        background-color: #f8f8f8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_definition\.sass}line{font-family:\000031}}
+dl.old_ticket {
+  margin-top: 15px;
+  margin-left: 25px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+  font-size: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_definition\.sass}line{font-family:\000037}}
+  dl.old_ticket dt {
+    font-family: sans-serif;
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_definition\.sass}line{font-family:\0000310}}
+    dl.old_ticket dt:after {
+      content: ":"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_definition\.sass}line{font-family:\0000312}}
+  dl.old_ticket dd {
+    margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\000031}}
+.button, input[type="submit"] {
+  display: block;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: 0px 1px 0px #adb1b4;
+  -webkit-box-shadow: 0px 1px 0px #adb1b4;
+  -o-box-shadow: 0px 1px 0px #adb1b4;
+  box-shadow: 0px 1px 0px #adb1b4;
+  text-shadow: white 0px 1px 0px;
+  border: 1px solid #adb1b4;
+  background-color: #eeeeee;
+  padding: 5px;
+  cursor: pointer;
+  color: #515151;
+  margin: 5px;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000324}}
+  .button + .button, input[type="submit"] + .button {
+    margin-left: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000327}}
+  .button:hover, input[type="submit"]:hover {
+    background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000330}}
+input[type="submit"] {
+  display: inline;
+  float: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000333}}
+.button {
+  position: relative;
+  padding: 7px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000337}}
+  .button:active {
+    position: relative;
+    top: 1px;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000342}}
+  .button.menu {
+    float: right;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    width: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000347}}
+    .button.menu .icon {
+      line-height: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000350}}
+.menu_contents {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000353}}
+.positionHelper {
+  z-index: 3000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000356}}
+.fg-menu-container {
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -khtml-border-radius: 3px;
+  border-radius: 3px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+  -o-box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+  box-shadow: rgba(0, 0, 0, 0.3) 0 0 5px;
+  background-color: #f8f8f8;
+  border: 1px solid #adb1b4;
+  position: absolute;
+  top: 34px;
+  right: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000367}}
+  .fg-menu-container ul li {
+    list-style-type: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000370}}
+    .fg-menu-container ul li a {
+      display: block;
+      font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 13px;
+      color: #515151;
+      line-height: 30px;
+      border-bottom: 1px solid #dddddd;
+      padding-left: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000379}}
+      .fg-menu-container ul li a:hover {
+        background-color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_buttons\.sass}line{font-family:\0000384}}
+      .fg-menu-container ul li a:last-child {
+        border-bottom: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\000031}}
+table {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\000034}}
+  table thead {
+    font-family: HelveticaNeue-Bold, "Helvetica Neue Bold", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+    background-color: #eeeeee;
+    border-bottom: 1px solid #adb1b4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000312}}
+    table thead tr th {
+      padding: 5px 9px;
+      text-shadow: white 0 1px 0;
+      -moz-box-shadow: white 1px 1px 0 0 inset;
+      -webkit-box-shadow: white 1px 1px 0 0 inset;
+      -o-box-shadow: white 1px 1px 0 0 inset;
+      box-shadow: white 1px 1px 0 0 inset; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000318}}
+      table thead tr th + th {
+        border-left: 1px solid #adb1b4; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000323}}
+  table tbody tr:hover {
+    background-color: #eeeeee; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000325}}
+    table tbody tr:hover td {
+      color: black; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000327}}
+  table tbody tr.selected {
+    background-color: #4486d7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000329}}
+    table tbody tr.selected td {
+      color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_table\.sass}line{font-family:\0000331}}
+  table tbody tr td {
+    cursor: pointer;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #515151;
+    border-bottom: 1px solid #eeeeee;
+    font-size: 12px;
+    padding: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\000031}}
+#modal {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+  width: 100%;
+  height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\000039}}
+  #modal.modal_show {
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000312}}
+  #modal .background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: white;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+    filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+    opacity: 0.5;
+    z-index: 2000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000322}}
+  #modal .holder {
+    position: relative;
+    width: 50%;
+    left: 25%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    z-index: 2001;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 5px;
+    -o-box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 5px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 0 0 5px; 
+	background: none repeat scroll 0 0 rgba(255, 255, 255, 0.8)
+	}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000333}}
+  #modal .modal_header {
+    position: relative;
+    background: rgba(255, 255, 255, 0.8);
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -ms-border-top-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    border-top-left-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -ms-border-top-right-radius: 5px;
+    -khtml-border-top-right-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid rgba(221, 221, 221, 0.5);
+    border-bottom: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000341}}
+    #modal .modal_header .modal_title {
+      -webkit-font-smoothing: antialiased;
+      font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 18px;
+      line-height: 34px;
+      padding-left: 10px;
+      color: #222424; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000349}}
+    #modal .modal_header .close {
+      position: absolute;
+      right: 8px;
+      top: 8px;
+      color: rgba(81, 81, 81, 0.5);
+      cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000357}}
+      #modal .modal_header .close:hover {
+        color: #515151; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000359}}
+      #modal .modal_header .close:active {
+        color: rgba(81, 81, 81, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000361}}
+      #modal .modal_header .close:before {
+        font-family: "Icons", sans-serif;
+        -webkit-font-smoothing: antialiased;
+        font-size: 19px;
+        line-height: 10px;
+        font-weight: normal !important;
+        font-style: normal !important;
+        content: "c"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000365}}
+  #modal .modal_content {
+    -moz-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.5) 0 1px 1px;
+    -webkit-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.5) 0 1px 1px;
+    -o-box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.5) 0 1px 1px;
+    box-shadow: white 0 1px 0 0 inset, rgba(0, 0, 0, 0.5) 0 1px 1px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    height: 80%;
+    border: 1px solid #adb1b4;
+    background: #eeeeee;
+    overflow: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000376}}
+  #modal .email .label {
+    font-weight: bold; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000378}}
+    #modal .email .label:after {
+      content: ":"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000380}}
+  #modal .email .sender, #modal .email .date {
+    display: block;
+    font-size: 11px;
+    color: #515151; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000384}}
+  #modal .email .body {
+    display: block;
+    margin-top: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_modal\.sass}line{font-family:\0000391}}
+#loader_indicator {
+  right: 20px;
+  top: 100px;
+  margin: 10px;
+  visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_inset_list\.sass}line{font-family:\000031}}
+.inset_list {
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #adb1b4;
+  -moz-box-shadow: #adb1b4 0 1px 0 0 inset;
+  -webkit-box-shadow: #adb1b4 0 1px 0 0 inset;
+  -o-box-shadow: #adb1b4 0 1px 0 0 inset;
+  box-shadow: #adb1b4 0 1px 0 0 inset;
+  background: white;
+  overflow: auto;
+  width: auto;
+  margin: 15px;
+  margin-left: 20px;
+  padding-top: 1px;
+  padding-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_inset_list\.sass}line{font-family:\0000318}}
+  .inset_list table thead th:first-child {
+    -moz-border-radius-topleft: 5px;
+    -webkit-border-top-left-radius: 5px;
+    -o-border-top-left-radius: 5px;
+    -ms-border-top-left-radius: 5px;
+    -khtml-border-top-left-radius: 5px;
+    border-top-left-radius: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/cwd\/Dropbox\/src\/spoton\/spoton\/components\/hotspot\/static\/sass\/project\/_inset_list\.sass}line{font-family:\0000320}}
+  .inset_list table thead th:last-child {
+    -moz-border-radius-topright: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -o-border-top-right-radius: 5px;
+    -ms-border-top-right-radius: 5px;
+    -khtml-border-top-right-radius: 5px;
+    border-top-right-radius: 5px; }
+
+table thead tr th a.sortheader:link{
+    color: #000000;
+}
+
+table thead tr th a.sortheader:visited{
+    color: #000000;
+}
+
+ul{
+    margin-top: 10px;
+    margin-left: 16px;
+    margin-bottom: 10px;
+}
+
+
+ul li{
+    font-size: 11px;
+    font-family: sans-serif;
+    margin-left: 20px;
+    margin-bottom: 7px;
+}
+
+ul li span{
+    font-weight:normal;
+    color: #cccccc;
+}
+
+ul li label{
+    display: block;
+    padding-left: 15px;
+    text-indent: -15px;
+}
+ul li input{
+    width: 13px;
+    height: 13px;
+    padding: 0;
+    margin:0;
+    vertical-align: bottom;
+    position: relative;
+    top: -1px;
+    *overflow: hidden;
+}
+
+.form_error_box {
+	display : block;
+	font-family : sans-serif;
+	font-size : 12px; 
+	font-weight: bold;
+	margin: 10px;
+	color : red;
+}
+
+.form_error_box p{
+    padding: 7px;
+    background-color: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.loading {
+    color: #333333;
+    size: 10px;
+    font-family : sans-serif;
+    margin: 10px;
+	display : none;
+}

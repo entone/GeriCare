@@ -1,0 +1,31 @@
+<table class='merchants'>
+    <thead>
+        <tr>
+            <th>When</th>
+            <th>Field</th>
+            <th>Old Value</th>
+            <th>New Value</th>
+            <th>User</th>
+        </tr>
+    </thead>
+    <tbody>
+        % if len(changes):
+            % for i in changes:
+                <tr class='merchant_row'>
+                    <td>${DateFormatter(i['when'])}</td>
+                    <td>${i['field']}</td>                
+                    <td>${i['old']}</td>
+                    <td>${i['value']}</td>
+                    <td>
+                    % if i.get('user'): 
+                        ${i['user']['firstName']} 
+                        ${i['user']['lastName'][0]}.
+                    % endif
+                    </td>
+                </tr>
+            % endfor
+        % else:
+            <td colspan="5">No Changes</td>
+        % endif
+   </tbody>
+</table>

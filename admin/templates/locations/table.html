@@ -1,0 +1,20 @@
+<div class="column_data" id="table_data">
+    <table class="merchants">
+        <thead>
+            <tr>
+            % for v in columns:
+                <th>${v['display']}</th>
+            % endfor            
+            </tr>
+        </thead>
+        <tbody>
+            % if objects.count():
+                % for a in objects:
+                    ${a.render()}
+                % endfor
+            % else:
+                <td colspan="${len(columns)}">No results</td>
+            % endif
+        </tbody>
+    </table>
+</div>

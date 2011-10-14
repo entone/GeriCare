@@ -1,0 +1,16 @@
+<tr class='merchant_row' id='${object.__id__}'>
+    % for k in object.__view__.columns:
+        <td>
+        % if k['key'] == 'actions':
+            <a href="#" class="button menu"><span class="icon menu"></span></a>
+            <div class="menu_contents">
+                <ul>                    
+                    <li><a class='transactions' href='#' data-id="${object.__id__}" onclick="load_changes('${object.__id__}'); return false;">Change Log</a></li> 
+                </ul>
+            </div>
+        % else:
+            ${getattr(object, k['key'])}
+        % endif
+        </td>
+    % endfor
+</tr>

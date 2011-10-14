@@ -242,6 +242,10 @@ class CollectionChoice(Choice):
 class Boolean(Field):
     __default__ = False
     
+    def __init__(self, *args, **kwargs):
+        kwargs['widget'] = kwargs.get('widget', CheckBox)
+        super(Boolean, self).__init__(*args, **kwargs)
+    
     def __clean__(self, value):
         ex = None
         try:

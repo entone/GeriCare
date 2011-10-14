@@ -1,0 +1,176 @@
+/*
+	 CSS-Tricks Example
+	 by Chris Coyier
+	 http://css-tricks.com
+*/
+
+* { margin: 0; padding: 0; }
+body { font: 14px/1.4 Lucida, sans-serif; }
+#page-wrap { width: 800px; margin: 0 auto; }
+
+textarea { border: 0; font: 14px Georgia, Serif; overflow: hidden; resize: none; }
+table { border-collapse: collapse; }
+table td, table th { padding: 5px; }
+
+#header { height: 15px; width: 100%; margin: 20px 0; background: #222; text-align: center; color: white; font: bold 15px Helvetica, Sans-Serif; text-decoration: uppercase; letter-spacing: 20px; padding: 8px 0px; }
+
+#address { width: 250px; height: 150px; float: left; }
+#customer { overflow: hidden; }
+
+#bill_print {
+	position: relative;
+	float: right;
+	overflow: hidden;
+	margin-top:-70px;
+	 } 
+
+.bill_print_button {
+	display: block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: HelveticaNeue, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight : bold;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    -moz-box-shadow: 0px 1px 0px #adb1b4;
+    -webkit-box-shadow: 0px 1px 0px #adb1b4;
+    -o-box-shadow: 0px 1px 0px #adb1b4;
+    box-shadow: 0px 1px 0px #adb1b4;
+    text-shadow: white 0px 1px 0px;
+    border: 1px solid #adb1b4;
+    background-color: #eeeeee;
+    padding: 10px;
+    cursor: pointer;
+    color: #515151;
+    text-align: center;
+    width:100px; }
+    
+.bill_print_button:hover{
+	background-color: white;
+}    
+
+#logo { position: relative; max-width: 540px; margin-bottom: 20px; max-height: 100px; overflow: hidden; }
+#logoctr { display: none; }
+#logo:hover #logoctr, #logo.edit #logoctr { display: block; text-align: right; line-height: 25px; background: #eee; padding: 0 5px; }
+#logohelp { text-align: left; display: none; font-style: italic; padding: 10px 5px;}
+#logohelp input { margin-bottom: 5px; }
+.edit #logohelp { display: block; }
+.edit #save-logo, .edit #cancel-logo { display: inline; }
+.edit #image, #save-logo, #cancel-logo, .edit #change-logo, .edit #delete-logo { display: none; }
+#customer-title { font-weight: bold; float: left; }
+
+#meta { margin-top: 1px; width: 300px; float: right; border: solid 1px #000; }
+#meta td { text-align: right; border: solid 1px #000; }
+#meta td.meta-head { text-align: left; font-weight: bold;}
+#meta td textarea { width: 100%; height: 20px; text-align: right; }
+
+.items { clear: both; width: 100%; margin: 30px 0 0 0;}
+.items th { background: #eee; }
+.items textarea { width: 80px; height: 50px; }
+.items tr.item-row td { border: 0; vertical-align: top; }
+.items td.description { width: 300px; }
+.items td.item-name { width: 175px; }
+.items td.description textarea, .items td.item-name textarea { width: 100%; }
+.items td.total-line { border-right: 0; text-align: right; }
+.items td.total-value { border-left: 0; padding: 10px; }
+.items td.total-value textarea { height: 20px; background: none; }
+.items td.balance { background: #eee; }
+.items td.blank { border: 0; }
+
+#terms { text-align: center; margin: 20px 0 0 0; }
+#terms h5 { text-transform: uppercase; font: 13px Helvetica, Sans-Serif; letter-spacing: 10px; border-bottom: 1px solid black; padding: 0 0 8px 0; margin: 0 0 8px 0; }
+#terms textarea { width: 100%; text-align: center;}
+
+textarea:hover, textarea:focus, #items td.total-value textarea:hover, #items td.total-value textarea:focus, .delete:hover { background-color:#EEFF88; }
+
+.delete-wpr { position: relative; }
+.delete { display: block; color: #000; text-decoration: none; position: absolute; background: #EEEEEE; font-weight: bold; padding: 0px 3px; border: 1px solid; top: -6px; left: -22px; font-family: Verdana; font-size: 12px; }
+
+#invoice {
+	width: 960px;
+	margin: 40px auto;
+}
+table.items thead {
+	font-weight: bold;
+}
+
+table.items thead td, 
+table.items tbody td, 
+table.items tfoot td {
+	text-align: right;	
+}
+table.items thead td:nth-child(1), 
+table.items tbody td:nth-child(1),
+table.items tbody td.left  {
+	text-align: left;
+} 
+table.items tbody tr {
+	border-bottom: solid 1px #f0f0f0;
+}
+table.items tfoot {
+	font-weight: bold;
+}
+
+table.items tbody tr.subtotals {
+	border-bottom: none;
+	font-weight: bold;
+}
+table.items tbody tr.subtotals td {
+	border-top: solid 2px #000000;
+}
+table.items tr td:first-child {
+	padding-left: 3em;
+}
+table.items tr td:first-child.left {
+	padding-left: 5px;
+}
+table.items tr td.heading {
+	font-weight: bold;
+	padding-left: 5px;
+}
+.shaded {
+	background-color: #e0e0e0;
+}
+h1 {
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 1em;
+	color: #e0e0e0;
+	float: right;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #999;
+	float: right;
+	text-transform: uppercase;
+}
+.right {
+	float: right;
+}
+footer {
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #999;
+}
+hr {
+	display: block;
+	position: relative;
+	padding: 0;
+	margin: 20px auto;
+	width: 100%;
+	clear: both;
+	border: none;
+	border-top: 1px solid #ccc;
+	font-size: 1px;
+	line-height: 0;
+	overflow: visible;
+}

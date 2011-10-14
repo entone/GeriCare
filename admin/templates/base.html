@@ -1,0 +1,62 @@
+<%!
+    TITLE = " | GeriCare Admin"
+%>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>
+        ${self.title()}        
+    </title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <script type='text/javascript' src='${static_url("js/date.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/jquery.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/jquery.calendrical.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/json2.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/framework.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/fg.menu.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/init.js")}'></script>
+    <script type='text/javascript' src='${static_url("js/util.js")}'></script>
+    
+    <script type='text/javascript' src='${static_url("js/jqueryui.js")}'></script>
+    <script type="text/javascript" src='${static_url("js/sortable.js")}'></script>
+    ${self.script_embeds()}
+    <link rel="Stylesheet" href="${static_url("css/calendrical.css")}" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="${static_url("css/main.css")}" type="text/css" media="screen" />
+    <link rel="Stylesheet" href="${static_url("css/jquery-ui-custom.css")}" type="text/css" media="screen" />
+    
+    <style type='text/css'>
+        ${self.styles()}
+    </style>
+    <!--[if IE]>
+        <style type='text/css'>
+            form .fieldset .fieldset .legend:after {
+                display: none;
+            }
+        </style>
+    <![endif]-->
+    <script type='text/javascript' language='javascript'>
+        var controller = "${controller}";
+        var base_url = "${base_url}/";
+        ${self.scripts()}
+    </script>
+</head>
+<body>
+    <div id='body'>
+        ${self.main()}
+    </div>
+</body>
+</html>
+
+<%def name="title()">
+    ${self.attr.TITLE}
+</%def>
+
+<%def name="main()">
+    You should probably override the body function for your template.
+</%def>
+
+<%def name="styles()"></%def>
+
+<%def name="scripts()"></%def>
+
+<%def name="script_embeds()"></%def>
