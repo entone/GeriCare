@@ -23,7 +23,7 @@ class LocationTable(View):
     
     
 class LocationForm(View):
-    _template = 'models/form.html'
+    _template = 'models/location/form.html'
     
 class LocationNewForm(View):
-    _template = 'models/form.html'
+    _template = 'models/location/form.html'

@@ -1,0 +1,22 @@
+<table class='merchants'>
+    <thead>
+        <tr>
+            <th>Type</th>
+            <th>Penalty</th>
+            <th>Date</th>
+        </tr>
+    </thead>
+    <tbody>
+        % if location.enforcements().count():
+            % for i in location.enforcements():
+                <tr class='merchant_row'>
+                    <td>${i.enforcement_type}</td>                
+                    <td>${locale.currency(i.civil_money_penalty)}</td>
+                    <td>${DateFormatter(i.survey_date)}</td>                
+                </tr>
+            % endfor
+        % else:
+            <td colspan="3">No Enforcements</td>
+        % endif
+   </tbody>
+</table>

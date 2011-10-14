@@ -1,0 +1,16 @@
+<div class="tabs">
+    <div class="tab_wrap"><a href="#" class='selected details'>Details</a></div>
+    <div class="tab_wrap"><a href="#" class='enforcements'>Enforcements</a></div>
+    <div class="tab_wrap"><a href="#" class='deficiencies'>Deficiencies</a></div>
+</div>
+<div id='form'>
+    ${self.form()}
+    ${self.extra()}
+</div>
+
+<%def name="form()">
+    ${object.render_form()}
+</%def>
+    
+<%def name="extra()"></%def>
+

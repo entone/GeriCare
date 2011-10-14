@@ -143,7 +143,22 @@ class TimeStamp(Widget):
 
 class Link(Widget):
     def render(self, **kwargs):
-        return "<a href='%s' target='_blank'>Facebook Account</a>" % self.__field__.__value__
+        if self.__field__.__value__:
+            st = super(Link, self).render(**kwargs)
+            st+= "<a id='link_%s' href='%s' target='_blank'>%s&nbsp;&nbsp;|&nbsp;&nbsp;</a><span id='edit_%s'>Edit</span>" % (self.__field__.name, self.__field__.__value__, self.__field__.__value__, self.__field__.name)
+            st+="""<script type='text/javascript' language='javascript'>
+                $(function(){
+                    $("#id_%(name)s").hide();
+                    $("#edit_%(name)s").click(function(){
+                        $("#id_%(name)s").show();
+                        $("#link_%(name)s").hide();
+                        $("#edit_%(name)s").hide();
+                    });
+                });
+            </script>""" % {"name":self.__field__.name}
+            return st
+        else:
+            return super(Link, self).render(**kwargs)
         
 
 class ObjectView(Widget):

@@ -1,0 +1,26 @@
+<table class='merchants'>
+    <thead>
+        <tr>
+            <th>Category</th>
+            <th>Survey Date</th>
+            <th>Correction</th>
+            <th>Level</th>
+            <th>Deficiency</th>
+        </tr>
+    </thead>
+    <tbody>
+        % if location.deficiencies().count():
+            % for i in location.deficiencies():
+                <tr class='merchant_row'>
+                    <td>${i.deficiency_category}</td>                
+                    <td>${DateFormatter(i.survey_date)}</td>
+                    <td>${DateFormatter(i.date_of_correction)}</td>                
+                    <td>${i.level_of_harm}</td>
+                    <td>${i.deficiency}</td>
+                </tr>
+            % endfor
+        % else:
+            <td colspan="5">No Deficiencies</td>
+        % endif
+   </tbody>
+</table>
