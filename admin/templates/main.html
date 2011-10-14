@@ -36,6 +36,10 @@
             <a href="${absolute_url("locations/")}" class="${'selected' if controller== 'Isos' else ""}"><span class="icon check"></span>Location List</a>
             <a href='' onclick='create_new("locations", "Create New Location"); return false;'><span class="icon plus"></span>Create Location</a>
         </li>
+        <li>
+            <h3>Server</h3>
+            <a href="${absolute_url("supervisord/")}" class="${'selected' if controller== 'Isos' else ""}"><span class="icon check"></span>Supervisor</a>
+        </li>
     </ul>
     <a href="${absolute_url("logout/")}" class="button red">Logout</a>
 </%def>
