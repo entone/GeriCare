@@ -3,6 +3,7 @@
 *.lock
 .AppleDouble
 .DS_Store
+*.pid
 DEV
 LOCAL
 
