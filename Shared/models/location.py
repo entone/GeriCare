@@ -31,7 +31,8 @@ class Location(Model):
     
     __db__ = "gericare"
     __collection__ = "locations"
-    __dbindexes__ = [Index(name="name", field="nursing_home_name"), Index(name="provider_number", field="provider_number")]
+    __dbindexes__ = [Index(name="name", field="nursing_home_name"), Index(name="provider_number", field="provider_number"), Index(name="city", field="city"),
+    Index(name="zip_code", field="zip_code")]
     __fieldorder__ = ("provider_number", "nursing_home_name", "street", "city", "state", "zip_code", "website", "phone_number", "health_survey_date", 
     "fire_survey_date", "number_of_certified_beds", "percent_of_occupied_beds", "sprinkler_status", "program_participation", "type_of_ownership", "resident_and_family_councils",
     "ratings", "staffing", 
